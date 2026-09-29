@@ -11,7 +11,7 @@
 
 ## About
 
-把小想法做成真正好用的工具。目前在维护 **Mou music**，也持续尝试轻量、直接、有一点趣味的 Web 项目。
+把小想法做成真正好用的工具。目前在维护 **Moumusic**，也持续尝试轻量、直接、有一点趣味的项目。
 
 ## Focus
 
@@ -27,7 +27,7 @@
 
 | Project | What it is |
 | --- | --- |
-| [Nadev Box](https://github.com/jiajia2222/nadev-box) | GPL-3.0 VPS / sing-box management project with a terminal dashboard, node export, and diagnostics. |
+| [Moumusic](https://github.com/jiajia2222/Moumusic) | LGPL-3.0 | Cross-platform music client with custom LX sources, aggregate search, multi-platform switching, lyrics, and playback. |
 | [Graduation Wish Tree](https://github.com/jiajia2222/graduation-wish-tree) | A graduation wish-tree web project. |
 | [Mailfree](https://github.com/jiajia2222/mailfree) | An email-related web project. |
 
