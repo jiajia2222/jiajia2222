@@ -1,0 +1,80 @@
+<svg width="820" height="410" viewBox="0 0 820 410" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .t { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', Menlo, Consolas, monospace; font-size: 15px; }
+      .prompt { fill: #39d353; }
+      .cmd { fill: #e6edf3; }
+      .out { fill: #8b949e; }
+      .cyan { fill: #56d4dd; }
+      .pink { fill: #ff7b72; }
+      .dim { fill: #484f58; }
+    </style>
+    <clipPath id="c1"><rect x="178" y="56" height="22" width="0">
+      <animate attributeName="width" values="0;0;70;70" keyTimes="0;0.02;0.06;1" dur="18s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="c2"><rect x="178" y="114" height="22" width="0">
+      <animate attributeName="width" values="0;0;190;190" keyTimes="0;0.11;0.18;1" dur="18s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="c3"><rect x="178" y="238" height="22" width="0">
+      <animate attributeName="width" values="0;0;80;80" keyTimes="0;0.26;0.31;1" dur="18s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="c4"><rect x="178" y="296" height="22" width="0">
+      <animate attributeName="width" values="0;0;90;90" keyTimes="0;0.38;0.42;1" dur="18s" repeatCount="indefinite"/>
+    </rect></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="818" height="408" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect x="1" y="1" width="818" height="36" rx="10" fill="#161b22"/>
+  <rect x="1" y="27" width="818" height="10" fill="#161b22"/>
+  <circle cx="22" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="19" r="6" fill="#27c93f"/>
+  <text x="410" y="24" text-anchor="middle" class="t dim">moumou@github: ~</text>
+
+  <text x="24" y="72" class="t prompt">moumou@github:~$</text>
+  <text x="178" y="72" class="t cmd" clip-path="url(#c1)">whoami</text>
+  <text x="24" y="96" class="t out" opacity="0">jiajia2222 / Moumou - building small tools that feel useful.
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.07;0.09;1" dur="18s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="24" y="130" class="t prompt" opacity="0">moumou@github:~$
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.095;0.10;1" dur="18s" repeatCount="indefinite"/>
+  </text>
+  <text x="178" y="130" class="t cmd" clip-path="url(#c2)">ls projects/ --featured</text>
+  <text x="24" y="154" class="t" opacity="0"><tspan class="cyan">Moumusic/</tspan><tspan class="out" dx="16">cross-platform music client</tspan><tspan class="pink" dx="16">LGPL-3.0</tspan>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.19;0.20;1" dur="18s" repeatCount="indefinite"/>
+  </text>
+  <text x="24" y="176" class="t" opacity="0"><tspan class="cyan">graduation-wish-tree/</tspan><tspan class="out" dx="16">wish-tree web project</tspan>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.20;0.21;1" dur="18s" repeatCount="indefinite"/>
+  </text>
+  <text x="24" y="198" class="t" opacity="0"><tspan class="cyan">mailfree/</tspan><tspan class="out" dx="16">email-related web experiment</tspan>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.21;0.22;1" dur="18s" repeatCount="indefinite"/>
+  </text>
+  <text x="24" y="220" class="t" opacity="0"><tspan class="cyan">style/</tspan><tspan class="out" dx="16">simple, dark, terminal-first</tspan>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.22;0.23;1" dur="18s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="24" y="254" class="t prompt" opacity="0">moumou@github:~$
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.245;0.25;1" dur="18s" repeatCount="indefinite"/>
+  </text>
+  <text x="178" y="254" class="t cmd" clip-path="url(#c3)">ls focus/</text>
+  <text x="24" y="278" class="t out" opacity="0">typescript  javascript  css  linux  github  github-actions
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.32;0.34;1" dur="18s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="24" y="312" class="t prompt" opacity="0">moumou@github:~$
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.365;0.37;1" dur="18s" repeatCount="indefinite"/>
+  </text>
+  <text x="178" y="312" class="t cmd" clip-path="url(#c4)">cat motto</text>
+  <text x="24" y="336" class="t out" opacity="0">Music apps &#183; Web experiments &#183; Open source. Ship small, keep shipping.
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.43;0.45;1" dur="18s" repeatCount="indefinite"/>
+  </text>
+
+  <g opacity="0">
+    <text x="24" y="372" class="t prompt">moumou@github:~$</text>
+    <rect x="178" y="359" width="9" height="17" fill="#e6edf3">
+      <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.48;0.50;1" dur="18s" repeatCount="indefinite"/>
+  </g>
+</svg>
